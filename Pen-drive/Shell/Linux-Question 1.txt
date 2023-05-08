@@ -1,0 +1,47 @@
+1 . ls > outfile
+
+2. grep '[0-9]' outfile > list
+
+3. chmod u+x,g-r,o-r filename
+	
+	for check use ls -l file name
+
+4. alis rm="ls"
+   alias rm="rm -i"
+
+5. who | wc -l
+
+-------------------------------------------
+
+second
+
+1. cat > outfile
+
+2. ls -a > hidden 
+
+   cat hidden
+
+3. chmod 600 filename
+
+4. tr a-z A-Z <./filename ---- convert small to upper
+
+   tr A-Z a-z <./filename ---- convert upper to small
+
+5. cet -b 1,10 text
+
+6. sort filename | uniq -c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
