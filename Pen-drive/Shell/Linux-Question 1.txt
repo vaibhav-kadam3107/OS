@@ -23,13 +23,52 @@ second
 
 3. chmod 600 filename
 
+3.1 ln -s filename linkname
+    ln filename linkname
+
 4. tr a-z A-Z <./filename ---- convert small to upper
 
    tr A-Z a-z <./filename ---- convert upper to small
 
-5. cet -b 1,10 text
+5. cut -c 1,10 text
 
 6. sort filename | uniq -c
+
+---------------------------------------------------------
+
+third 
+1. cp inputfile outfile
+
+2.. grep -E '\b\w{4}\b' inputfile > list
+
+3. chmod u+w,g-r test
+ 
+4. alias ls='ls -a' 
+
+5. wc -w filename
+
+------------------------------------------------------
+
+fourth
+
+1. mv sourcefile destination > outfile
+
+2. ls -a > hidden
+
+3. chmode u-e,g+r filename
+
+4. ln -s filename linkname
+    ln filename linkname
+    
+5.  tr a-z A-Z <./filename ---- convert small to upper
+
+   tr A-Z a-z <./filename ---- convert upper to small
+
+6. cut -c 2,3 text
+
+7. sort filename | uniq -c
+
+
 
 
 
